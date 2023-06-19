@@ -1,0 +1,114 @@
+[
+	{
+		"id": 1687091006450,
+		"product_name": "Pond's",
+		"category": "Body",
+		"price": 40000,
+		"stock": 332
+	},
+	{
+		"id": 1687100012345,
+		"product_name": "Garnier Micellar Water",
+		"category": "Face",
+		"price": 80000,
+		"stock": 250
+	},
+	{
+		"id": 1687101009821,
+		"product_name": "Cetaphil Gentle Skin Cleanser",
+		"category": "Face",
+		"price": 120000,
+		"stock": 150
+	},
+	{
+		"id": 1687102018723,
+		"product_name": "The Ordinary Niacinamide",
+		"category": "Face",
+		"price": 90000,
+		"stock": 200
+	},
+	{
+		"id": 1687103024587,
+		"product_name": "Laneige Water Sleeping Mask",
+		"category": "Face",
+		"price": 180000,
+		"stock": 100
+	},
+	{
+		"id": 1687104015432,
+		"product_name": "Innisfree Green Tea Seed Serum",
+		"category": "Face",
+		"price": 135000,
+		"stock": 175
+	},
+	{
+		"id": 1687105027389,
+		"product_name": "Kiehl's Ultra Facial Cream",
+		"category": "Face",
+		"price": 250000,
+		"stock": 80
+	},
+	{
+		"id": 1687106021398,
+		"product_name": "The Body Shop Tea Tree Oil",
+		"category": "Face",
+		"price": 70000,
+		"stock": 300
+	},
+	{
+		"id": 1687107027645,
+		"product_name": "Neutrogena Hydro Boost Gel Cream",
+		"category": "Face",
+		"price": 150000,
+		"stock": 120
+	},
+	{
+		"id": 1687108023421,
+		"product_name": "La Roche-Posay Effaclar Duo+",
+		"category": "Face",
+		"price": 160000,
+		"stock": 90
+	},
+	{
+		"id": 1687109028543,
+		"product_name": "The Face Shop Rice Water Bright Cleansing Foam",
+		"category": "Face",
+		"price": 60000,
+		"stock": 200
+	},
+	{
+		"id": 1687110024512,
+		"product_name": "Hada Labo Gokujyun Ultimate Moisturizing Lotion",
+		"category": "Face",
+		"price": 90000,
+		"stock": 150
+	},
+	{
+		"id": 1687111022390,
+		"product_name": "Biore UV Aqua Rich Watery Essence SPF50+ PA++++",
+		"category": "Face",
+		"price": 95000,
+		"stock": 180
+	},
+	{
+		"id": 1687100012345,
+		"product_name": "Garnier Micellar Water",
+		"category": "Face",
+		"price": 80000,
+		"stock": 250
+	},
+	{
+		"id": 1687101009821,
+		"product_name": "Cetaphil Gentle Skin Cleanser",
+		"category": "Face",
+		"price": 120000,
+		"stock": 150
+	},
+	{
+		"id": 1687102018723,
+		"product_name": "The Ordinary Niacinamide",
+		"category": "Face",
+		"price": 90000,
+		"stock": 200
+	}
+]
