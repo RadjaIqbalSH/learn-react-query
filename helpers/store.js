@@ -23,10 +23,9 @@ export const store = (payload) => {
 			// 		data: currentData.slice(min, max),
 			// 		pagination: {
 			// 			page: +page,
-			// 			per_page: +perPage || 1,
-			// 			total_page:
-			// 				Math.ceil(currentData.length / +perPage) || 1,
-			//      total: currentData.length - 1,
+			// 			per_page: +perPage,
+			// 			total_page: Math.ceil((currentData.length - 1) / +perPage),
+			// 			total: currentData.length - 1,
 			// 		},
 			// 	});
 			// }, 5 * 1000);
@@ -70,7 +69,7 @@ export const store = (payload) => {
 				id: Date.now(),
 				...payload,
 			};
-			const newData = [...currentData, newPayload];
+			const newData = [newPayload, ...currentData ];
 			updateStore(path, newData);
 
 			// Delay
@@ -79,7 +78,7 @@ export const store = (payload) => {
 			// 		id: Date.now(),
 			// 		...payload,
 			// 	});
-			// }, 5 * 1000);
+			// }, 15 * 1000);
 
 			// Normal
 			res.status(200).json({

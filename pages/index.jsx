@@ -1,11 +1,17 @@
-import { Inter } from "next/font/google";
+import { useQuery } from "@tanstack/react-query";
 
-const inter = Inter({ subsets: ["latin"] });
+const doFetch = async() => {
+	const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+	return await response.json()
+}
 
 export default function Home() {
+
+	const todo = useQuery(["TODO"], doFetch)
+
 	return (
-		<div className={`${inter.style}`}>
-			<div className="w-full flex items-center justify-center mb-10">
+		<div className="">
+			{/* <div className="w-full flex items-center justify-center mb-10">
 				<h1 className="text-black font-black text-4xl">
 					COBA COBA REACT QUERY
 				</h1>
@@ -46,9 +52,9 @@ export default function Home() {
 							</tr>
 						</tbody>
 					</table>
-					{/* <div className="w-full flex items-center justify-center bg-red-100 p-12 border-2 border-black">
+					<div className="w-full flex items-center justify-center bg-red-100 p-12 border-2 border-black">
 						<p className="">LOADING ...</p>
-					</div> */}
+					</div>
 				</div>
 				<div className="w-fit border-black border-2 p-8">
 					<p className="mb-8 font-semibold">Tambah Product</p>
@@ -90,7 +96,7 @@ export default function Home() {
 						</button>
 					</form>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }

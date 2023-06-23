@@ -10,7 +10,7 @@ export default function handler(req, res) {
 	if (req.method === "GET") {
 		STORE.list({
 			page: req.query.page || 1,
-			perPage: req.query.per_page || 10,
+			perPage: req.query.per_page || 1,
 		});
 	}
 
