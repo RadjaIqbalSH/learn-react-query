@@ -24,21 +24,21 @@ const defaultMutationFn = async(payload) => {
   return await response.json()
 }
 
-const queryClient = new QueryClient({
-	defaultOptions: {
-		queries: {
-			queryFn: defaultQueryFn,
-		},
-		mutations: {
-			mutationFn: defaultMutationFn,
-			onError: () => {
-				alert("ERROR FETCH DATA")
-			},
-		}
-	}
-})
+// const queryClient = new QueryClient({
+// 	defaultOptions: {
+// 		queries: {
+// 			queryFn: defaultQueryFn,
+// 		},
+// 		mutations: {
+// 			mutationFn: defaultMutationFn,
+// 			onError: () => {
+// 				alert("ERROR FETCH DATA")
+// 			},
+// 		}
+// 	}
+// })
 
-// const queryClient = new QueryClient()
+const queryClient = new QueryClient()
 
 export default function App({ Component, pageProps }) {
 	return (

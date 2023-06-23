@@ -48,7 +48,7 @@ const PaginationUseQuery = () => {
         <p>{page}</p>
         <button 
           className="p-2 border-2 border-black rounded-md ml-4" 
-          onClick={() => setPage(current => current + 1)}
+          onClick={() => setPage(current => current + 1)} disabled={page >= (products?.data?.pagination?.total_page || 0)}
         >Next</button>
       </div>
     </>
